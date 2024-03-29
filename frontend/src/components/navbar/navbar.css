@@ -1,0 +1,92 @@
+.navbar{
+  height: 50px;
+  background-color: #580a0a;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer{
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+  transition: font-weight 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.logo:hover {
+  font-weight: 700;
+}
+
+.navButton{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
+
+.navButton {
+  background-color: transparent;
+  border: 2px solid #003580;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.navButton:hover {
+  background-color: #003580;
+  color: white;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navLink:hover {
+  background-color: #003580;
+  color: white;
+}
+
+.userName {
+  color: white;
+  margin-right: 20px;
+}
+
+navButton {
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.navButton:hover {
+  background-color: #003580;
+  color: white;
+}
+
+.navButtonLogout {
+  background-color: transparent;
+  border: 2px solid #003580;
+  color: #003580;
+  margin-left: 20px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.navButtonLogout:hover {
+  background-color: #003580;
+  color: white;
+}

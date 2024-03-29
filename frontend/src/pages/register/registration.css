@@ -1,0 +1,52 @@
+.registration {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/mnt/Study/3-1 courses/Database/Project/Database_CSE334/frontend/public/bgImg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 110%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.8); /* Replace with your desired transparency level */
+}
+
+
+.lInput {
+  height: 40px; /* Increased height for better visibility */
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+.lButton:hover {
+  background-color: #005fa0;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
