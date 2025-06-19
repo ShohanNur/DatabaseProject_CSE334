@@ -54,7 +54,7 @@ house-booking-platform/
 ## 🚀 Quick Start (local)
 
 ```bash
-git clone https://github.com/<you>/house-booking-platform.git
+git clone github.com:ShohanNur/DatabaseProject_CSE334.git
 cd house-booking-platform
 ```
 
